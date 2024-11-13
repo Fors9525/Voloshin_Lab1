@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0;
+    font-size: 16px;
+}
+.container {
+    width: 1100px;
+}
+.header, .fold, .footer, .image-section {
+    width: 1500px;
+    margin-left: -200px;
+    margin-right: -100px;
+    font-size: 24px;
+}
+.header {
+    background-color: #808080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+.fold {
+    background-color: #62dd8f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+}
+.text-section {
+    background-color: #FF9999;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+.text-section.alternate {
+    background-color: #FFD700;
+    height: 300px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio-section {
+    background-color: #FF9999;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+.portfolio-item {
+    background-color: #666666;
+    width: 515px;
+    height: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-section {
+    background-color: #404040;
+    height: 350px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+.image-small {
+    background-color: #A0A0A0;
+    width: 360px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer {
+    background-color: #404040;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
